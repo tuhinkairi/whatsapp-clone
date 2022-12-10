@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web clone</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- adding socket io js  -->
+    <!-- <host url>/socket.io/socket.io.js -->
+        <!-- defer is use for the scripts which  we want to load first but if it get any errors then it download the rest of the thigs in background so it will help us to load the data properly -->
+        <script defer src="http://127.0.0.1:80/socket.io/socket.io.js"></script> 
+        <script defer src="static/js/clint.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <img src="static/img/logo.png" alt="logo">
+
+        <div> <h1>sasta whatsapp</h1> <br><h3>~~~ created by Tuhin ~~~</h3>
+    </header>
+    <div class="holder">
+        <div class="container">
+            <div id="date" ></div>
+        </div>
+        <form action="#" id="send">
+            <input type="text" id="imessage" name="text">
+            <button type="submit" id="btn"><i class="fa fa-share-square"></i></button>
+        </form>
+    </div>
+
+
+</body>
+
+</html>
